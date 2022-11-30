@@ -1,0 +1,428 @@
+@import 'fonts.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__nav {
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.header__nav-content {
+    display: flex;
+    align-items: center;
+}
+
+.ullinks {
+    display: flex;
+}
+
+.ilink {
+    margin-left: 30px;
+    font-family: 'mont-bold';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #fff;
+}
+
+.search-opt {
+    margin-left: 610px;
+}
+
+.cart {
+    margin-left: 25px;
+}
+
+.header__content-centerlogo {
+    background: url('../images/Header.png') no-repeat top/ cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    margin-bottom: 38px;
+    font-family: 'mont-reg';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+
+.site-button {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 585px;
+    top: 450px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    
+}
+
+.site {
+    font-family: 'mont-sembold';
+    font-size: 20px;
+    position: absolute;
+    width: 145px;
+    height: 24px;
+    left: 25px;
+    top: 3px
+    
+}
+
+.shop {
+    position: absolute;
+    left: 83.44%;
+    right: 15.5%;
+    top: 15px;
+    bottom: 98.39%;
+    margin-left: 10px;
+        
+}
+
+main {
+    background: #151515;
+}
+
+.main__page {
+    display: flex;
+}
+
+.main__page-prph {
+    width: 538px;
+    height: 135px;
+    font-family: 'mont-sembold';
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.main__page-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main__page2-prph {
+    width: 540px;
+    height: 107px;
+    font-family: 'mont-sembold';
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 87px;
+}
+
+.main__page-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__main3prph-left{
+    
+width: 333px;
+height: 120px;
+font-family: 'Mont-bold';
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+color: #FFFFFF;
+}
+
+.header__main3prph-right{
+   
+width: 333px;
+height: 144px;
+font-family: 'Mont-bold';
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+
+}
+
+.img-main3{
+  margin: 50px 0 79px;  
+}
+
+.rectangle3{
+    margin: 0 12px;
+}
+
+.main__iphones-images{
+ padding: 79px 0 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.iphoneBG{
+text-align: center; 
+padding: 15px 0;
+width: 255px;
+height: 312px;
+left: 245px;
+top: 2027px;
+background: #FFFFFF;
+border-radius: 6px;
+}
+
+.p-price{
+margin-top: 10px;
+height: 17px;
+font-family: 'Mont-reg';
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+text-align: center;
+}
+
+.view-btn{
+    
+display: inline-block;
+margin: 20px 47px 15px;
+padding: 7px 57px;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #FFFFFF;
+width: 161px;
+height: 34px;
+background: #151515;
+
+}
+
+h2{
+margin-bottom: 10px;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+text-align: center;
+}
+
+
+footer{
+background: #282828;
+box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+
+}
+
+.footer__nav{
+   display: flex;
+   justify-content: space-between; 
+   margin: 0 -15px; /* !!! */
+   align-items: center;
+}
+
+.footer__nav-logo{
+    margin-right: 339px;
+    }
+    
+.footer__link{
+    font-family: 'Mont-bold';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    row-gap: 30px;
+}
+
+.footer__visa-img{
+    margin-right: 29px;
+    margin-left: 270px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
